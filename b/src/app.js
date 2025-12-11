@@ -17,7 +17,7 @@ app.use(express.json());
 
 // CORS before routes
 const allowedOrigins = [
-    process.env.FRONTEND_ORIGIN || "https://minor-deploy.vercel.app",
+    process.env.FRONTEND_ORIGIN || "https://deep-draft-one.vercel.app",
     "http://localhost:5173"
 ];
 app.use(cors({
