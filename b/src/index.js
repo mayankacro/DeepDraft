@@ -5,8 +5,8 @@ const cors = require("cors");
 
 const app = require("./app");
 const allowedOrigins = [
-    "https://minor-deploy-64gx.vercel.app", //  frontend
-    "http://localhost:5173","https://deep-draft-one.vercel.app"
+     "https://deep-draft-one.vercel.app",//  frontend
+    "http://localhost:5173"
 ];
 app.use(cors({
     origin: allowedOrigins,
